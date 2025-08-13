@@ -3,5 +3,11 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio/' // Use the exact repository name with a leading and trailing slash
+  // Set the base path to your repository name
+  base: '/Portfolio/',
+  // Explicitly tell Vite to handle assets paths correctly
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets', // This is usually the default, but good to be explicit
+  },
 });
