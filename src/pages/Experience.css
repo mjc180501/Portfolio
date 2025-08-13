@@ -1,0 +1,40 @@
+.experience-page {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.experience-page h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.resume-section {
+  background: var(--card-bg);
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 4rem auto;
+}
+
+.resume-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.download-button {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: #c0392b;
+  transform: translateY(-3px);
+}
