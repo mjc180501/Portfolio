@@ -1,15 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({ command }) => {
-  const config = {
-    plugins: [react()],
-    base: '/',
-  };
-
-  if (command !== 'serve') {
-    config.base = '/Portfolio/'; // Use your repository name here
-  }
-
-  return config;
+export default defineConfig({
+  plugins: [react()],
+  base: '/Portfolio/' // Case-sensitive repo name
 });
