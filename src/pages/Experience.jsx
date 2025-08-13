@@ -9,7 +9,7 @@ function Experience() {
     setShowFireworks(true);
     // Trigger the file download
     const link = document.createElement('a');
-    link.href = '/src/assets/resume.pdf';
+    link.href = '/assets/resume.pdf';
     link.download = 'Resume.pdf';
     document.body.appendChild(link);
     link.click();
